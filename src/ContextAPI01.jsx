@@ -30,7 +30,7 @@ const Dashboard = ({ userInfo }) => {
     )
 }
 
-const App = ({ userInfo }) => {
+const ContextAPI01 = ({ userInfo }) => {
     const [username, setUsername] = React.useState("");
     const { setUserInfo } = React.useContext(UserContext);
     const handleSubmit = (e) => {
@@ -49,4 +49,4 @@ const App = ({ userInfo }) => {
     )
 }
 
-export default App;
+export default ContextAPI01;
